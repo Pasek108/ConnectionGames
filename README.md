@@ -37,7 +37,8 @@ Check out the [live version](https://pasek108.github.io/ConnectionGames/).
   - **Pipes:** A classic plumbing puzzle where you rotate pipe segments to connect all endpoints back to the main source.
 - Extra Features
   - **Multiple Languages:** The game is fully playable in both **English** and **Polish**.
-  - **UI Polish:** Includes a smooth animated background for the main menu and confetti effects when you clear a level.
+  - **UI Polish:** The game is designed to work perfectly across all screen sizes, includes a smooth animated background and confetti effects when you clear a level.
+  * **Touch-Friendly:** Optimized for touch interactions, allowing for a seamless gameplay experience on mobile devices and tablets.
 
 
 ## Technologies
