@@ -1,4 +1,4 @@
-<h1 align="center">ConnectionGames - Readme</h1>
+<h1 align="center">ConnectionGames</h1>
 <p align="center">
   <strong>
     A collection of connection-based puzzle games built with Vue 3.
@@ -31,14 +31,18 @@ Check out the [live version](https://pasek108.github.io/ConnectionGames/).
 ![preview](/_for_readme/preview.png)
 
 ## Features
-- Game Modes
-  - **Bridges:** A web version of the classic *Hashiwokakero* puzzle. Connect all the islands together with horizontal and vertical bridges. You have to follow the allowed bridge counts for each island, and paths cannot cross.
-  - **Squares:** Move and rotate blocks until every piece on the grid is correctly connected to its neighbors. Includes 3 difficulty levels.
-  - **Pipes:** A classic plumbing puzzle where you rotate pipe segments to connect all endpoints back to the main source.
-- Extra Features
-  - **Multiple Languages:** The game is fully playable in both **English** and **Polish**.
-  - **UI Polish:** The game is designed to work perfectly across all screen sizes, includes a smooth animated background and confetti effects when you clear a level.
-  * **Touch-Friendly:** Optimized for touch interactions, allowing for a seamless gameplay experience on mobile devices and tablets.
+### Game Modes
+*Every game mode features **3 difficulty levels**, scaling the logic and grid complexity to challenge players of all skill levels.*
+
+* **Bridges:** A web version of the classic *Hashiwokakero* puzzle. Connect all the islands together with horizontal and vertical bridges. You have to follow the allowed bridge counts for each island, and paths cannot cross.
+* **Squares:** Move and rotate blocks until every piece on the grid is correctly connected to its neighbors.
+* **Pipes:** A variation the classic plumbing puzzle. In addition of rotating individual pieces, you must shift entire rows and columns to connect all endpoints back to the main source.
+
+### Extra Features
+* **Mobile & Touch-Friendly:** Optimized for touch interactions, allowing for a seamless gameplay experience on mobile devices and tablets.
+* **Responsive Design:** Built to scale perfectly across all screen sizes, from desktop monitors to smartphones.
+* **Multiple Languages:** The game is fully playable in both **English** and **Polish**.
+* **UI Polish:** Features a smooth animated background and satisfying confetti visual effects when you clear a level.
 
 
 ## Technologies
