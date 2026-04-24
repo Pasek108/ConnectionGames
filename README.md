@@ -5,6 +5,7 @@
   </strong>
 </p>
 
+<!--
 <br>
 
 # Table of Contents
@@ -17,7 +18,7 @@
   * [Technical challenges](#technical-challenges)
 
 <br>
-
+-->
 # Overview :sparkles:
 
 ## About
