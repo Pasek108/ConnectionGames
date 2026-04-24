@@ -13,8 +13,8 @@
   * [Features](#features)
   * [Technologies](#technologies)
 * [Details :scroll:](#details-scroll)
-  * [Project structure](#project-structure)
-  * [Code organization](#code-organization)
+  * [ UI and application flow](#ui-and-application-flow)
+  * [Technical challenges](#technical-challenges)
 
 <br>
 
@@ -82,4 +82,50 @@ To edit this program:
 
 # Details :scroll:
 
+## UI and application flow
 
+### Main Menu
+The main menu serves as the entry point, presenting the three core game modes. Clicking any mode navigates the user to the respective level selection screen. A language toggle (English/Polish) is conveniently located in the top right corner for accessibility.
+
+![Main Menu](/_for_readme/game_select_menu.png)
+
+---
+
+### Level Selection
+Here, players can choose their preferred difficulty and select a specific puzzle. The UI clearly visually distinguishes between completed, unlocked, and locked levels. Progression is flexible—players can jump straight into harder difficulties without having to complete all the easy levels first. A persistent "back" button ensures smooth navigation.
+
+![Level Selection](/_for_readme/level_select_menu.png)
+
+---
+
+### Game View
+The core gameplay interface provides a clean, distraction-free experience. The header displays the current context (game mode and difficulty) alongside a level selector. It also features quick-action buttons for restarting the current puzzle or maximizing the board to fill the screen space.
+
+![Game View](/_for_readme/game_view.png)
+
+---
+
+### Bridges Mode
+An implementation of the classic *Hashiwokakero* puzzle. The board consists of islands with numeric values indicating their required number of bridge connections. The goal is to connect all islands into a single, continuous network by placing 1 or 2 bridges between them, ensuring that no paths intersect.
+
+![Bridges Mode](/_for_readme/bridges_game_mode.png)
+
+---
+
+### Squares Mode
+Players must restore a grid of interconnected square pieces so that all connections match up perfectly. The challenge lies in the different block constraints, indicated by color and icons:
+* **Red (4 dots):** Static; cannot be moved or rotated.
+* **Blue (center dot):** Can only be rotated.
+* **Green (arrows in all directions):** Can be moved freely across the grid.
+* **Orange (arrows + center dot):** Can be moved freely and rotated.
+* **Purple (single-axis arrow):** Can only move along one specific axis.
+* **Brown (single-axis + center dot):** Can move along one axis and be rotated.
+
+![Squares Mode](/_for_readme/squares_game_mode.png)
+
+---
+
+### Pipes Mode
+A dynamic variation of the classic pipe puzzle. Players must establish a continuous flow from the source to all endpoints. To solve the board, users must not only rotate individual pipe segments but also strategically shift entire rows and columns.
+
+![Pipes Mode](/_for_readme/pipes_game_mode.png)
